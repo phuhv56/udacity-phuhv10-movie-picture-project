@@ -18,7 +18,7 @@ jobs:
       - name: Setup up NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: 20.0.0
 
       - name: Cache Dependencies
         id: cache-dependencies
@@ -46,7 +46,7 @@ jobs:
       - name: Setup up NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: latest
+          node-version: 20.0.0
 
       - name: Cache Dependencies
         id: cache-dependencies
